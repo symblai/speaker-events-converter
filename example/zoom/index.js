@@ -1,12 +1,12 @@
 const converters = require('../../index');
 const timeline = require('./mockTimeline');
 
-const zoomConverter = converters.getConverterByName(
+const zoomTimelineConverter = converters.getConverterByName(
     converters.getConverters().zoom,
     timeline
 );
 
 (async () => {
-    const converted = await zoomConverter.convert();
+    const converted = await zoomTimelineConverter.convert();
     console.log(JSON.stringify(converted, null, 4));
 })();
