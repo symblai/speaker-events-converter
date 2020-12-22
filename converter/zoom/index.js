@@ -80,7 +80,7 @@ const ZoomConverter = class {
             this.speakerEvents.push({
                 type: 'stopped_speaking',
                 user: {
-                    id: activeSpeaker.user_id || activeSpeaker.zoom_userid,
+                    id: (activeSpeaker.user_id && "".concat(activeSpeaker.user_id)) || activeSpeaker.zoom_userid,
                     name: activeSpeaker.username,
                     email: activeSpeaker.email_address
                 },
@@ -197,7 +197,7 @@ const ZoomConverter = class {
             users.slice(0, 1).forEach(user => {
                 const speakerEvent = {
                     user: {
-                        id: user.user_id || user.zoom_userid,
+                        id: (user.user_id && "".concat(user.user_id)) || user.zoom_userid,
                         name: user.username,
                         email: user.email_address
                     },
