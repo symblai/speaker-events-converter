@@ -16,7 +16,7 @@ Symbl's APIs empower developers to enable:
 <hr />
 
  * [Setup](#setup)
- * [Usage] (#usage)
+ * [Usage](#usage)
  * [Community](#community)
  
 ## Setup 
