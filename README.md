@@ -22,7 +22,7 @@ Symbl's APIs empower developers to enable:
 ## Setup 
 The first step to getting setup is to [sign up with Symbl.ai][signup]. 
 
-You will need a [Zoom](https://zoom.us/) account with a Professional package version or higher.  
+You will need a [Zoom](https://zoom.us/) account with a Business package version or higher.  
 
 ### Configure Zoom
 1. Under Account Settings > Advanced cloud recording settings, check the box which states `Add a timestamp to the recording`.  This setting will allow an export of the required Zoom Timeline for any recorded Zoom meeting.  
